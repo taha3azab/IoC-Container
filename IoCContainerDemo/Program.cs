@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IoCContainerDemo
 {
@@ -8,12 +6,13 @@ namespace IoCContainerDemo
     {
         static void Main(string[] args)
         {
-            ICreditCard creditCard = new MasterCard();
-            ICreditCard otherCreditCard = new Visa();
+            //ICreditCard creditCard = new MasterCard();
+            //ICreditCard otherCreditCard = new Visa();
 
             var resolver = new Resolver();
             
             resolver.Register<Shopper, Shopper>();
+            
             //resolver.Register<ICreditCard, MasterCard>();
             resolver.Register<ICreditCard, Visa>();
 
