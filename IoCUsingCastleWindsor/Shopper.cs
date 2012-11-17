@@ -1,5 +1,4 @@
 using System;
-using IoCUsingCastleWindsor;
 
 namespace IoCUsingCastleWindsor
 {
