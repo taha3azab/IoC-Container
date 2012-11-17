@@ -7,7 +7,7 @@
     <ProjectGuid>{26CF6577-1183-486B-A421-2EA97B2B0424}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IoCUsingMicrosoftUnity</RootNamespace>
+    <RootNamespace>IoCUsingCastleWindsor</RootNamespace>
     <AssemblyName>IoCUsingMicrosoftUnity</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
