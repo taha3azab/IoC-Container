@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCUsingMicrosoftUnity", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCUsingCastleWindsor", "IoCUsingCastleWindsor\IoCUsingCastleWindsor.csproj", "{5E6B4841-9C24-48F1-8094-F86842F22B10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCUsingStructureMap", "IoCUsingStructureMap\IoCUsingStructureMap.csproj", "{EECD9D01-773B-4DC4-833F-7C85A1A76B53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{5E6B4841-9C24-48F1-8094-F86842F22B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E6B4841-9C24-48F1-8094-F86842F22B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E6B4841-9C24-48F1-8094-F86842F22B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECD9D01-773B-4DC4-833F-7C85A1A76B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECD9D01-773B-4DC4-833F-7C85A1A76B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECD9D01-773B-4DC4-833F-7C85A1A76B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECD9D01-773B-4DC4-833F-7C85A1A76B53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
