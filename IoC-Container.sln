@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCContainerDemo", "IoCContainerDemo\IoCContainerDemo.csproj", "{E235D77D-FFB9-445D-A1AC-77F883DDA93A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4AC98ABB-5F3B-4742-9295-3955204F451F}"
@@ -17,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCUsingStructureMap", "IoCUsingStructureMap\IoCUsingStructureMap.csproj", "{EECD9D01-773B-4DC4-833F-7C85A1A76B53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCUsingNinject", "IoCUsingNinject\IoCUsingNinject.csproj", "{CAA21DA5-D447-40AA-A814-A41DA965D818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCUsingSimpleInjector", "IoCUsingSimpleInjector\IoCUsingSimpleInjector.csproj", "{971FFCCE-9D87-44D0-8801-957EED91ECB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +48,10 @@ Global
 		{CAA21DA5-D447-40AA-A814-A41DA965D818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA21DA5-D447-40AA-A814-A41DA965D818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA21DA5-D447-40AA-A814-A41DA965D818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971FFCCE-9D87-44D0-8801-957EED91ECB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971FFCCE-9D87-44D0-8801-957EED91ECB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971FFCCE-9D87-44D0-8801-957EED91ECB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971FFCCE-9D87-44D0-8801-957EED91ECB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
